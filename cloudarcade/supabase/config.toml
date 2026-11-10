@@ -1,0 +1,5 @@
+project_id = "cloudarcade"
+
+[functions.game-api]
+# The handler validates the user token with auth.getUser before any database access.
+verify_jwt = false

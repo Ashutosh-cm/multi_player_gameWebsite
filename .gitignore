@@ -1,0 +1,15 @@
+# Local builds and generated files
+.dist/
+cloudarcade/node_modules/
+cloudarcade/dist/
+cloudarcade/test-results/
+cloudarcade/playwright-report/
+
+# Local credentials and environment configuration
+cloudarcade/.env
+cloudarcade/.env.*
+!cloudarcade/.env.example
+
+# Logs and local Supabase state
+*.log
+cloudarcade/.supabase/
